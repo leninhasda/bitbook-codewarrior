@@ -1,0 +1,202 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f1f1f1;
+}
+.fa-i {
+  padding-left: 7px;
+}
+.container {
+  width: 960px;
+}
+.tags span {
+  display: inline-block;
+  color: #2e748b;
+  color: #378ba6;
+  background-color: #ccc;
+  border: 0;
+  padding: 3px 5px;
+}
+.tags span:hover {
+  background: #EEA236;
+  background: #378ba6;
+}
+.navbar {
+  background: #378ba6;
+}
+.navbar .navbar-brand {
+  color: white;
+}
+.navbar .nav li a {
+  color: white;
+  text-transform: lowercase;
+}
+.navbar .nav li a:hover {
+  color: #ccc;
+  background-color: #2e748b;
+}
+.main-wrapper {
+  margin-top: 180px;
+  height: 1000px;
+}
+.main-wrapper .subheading {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.content .topic li {
+  float: right;
+}
+.content .topic li:first-child {
+  float: left;
+}
+.content .topic li:first-child span {
+  display: inline-block;
+  padding: 8px 15px;
+  font-weight: 500;
+  font-size: 16.5px;
+}
+.content .questions {
+  background-color: #fff;
+}
+.content .questions .list-group {
+  background-color: transparent;
+  list-style: none;
+}
+.content .questions .list-group li {
+  padding: 10px;
+  border: 0;
+  border-radius: 0;
+}
+.content .questions .ques-item {
+  border-bottom: 1px dotted #ccc;
+}
+.content .questions .ques-item .info button span {
+  display: block !important;
+}
+.content .questions .ques-item .ques {
+  padding-left: 0;
+}
+.content .questions .ques-item .ques .info-date {
+  font-size: 12px;
+  color: #666;
+}
+/*.block{
+  background-color:#eee ;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}*/
+.image {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.para {
+  margin-left: 5px;
+}
+.navbar-default {
+  border: 0;
+}
+/* login page */
+.login {
+  margin-top: 50px;
+  width: 750px;
+}
+.login-wrap {
+  background: #fff;
+  padding-bottom: 35px;
+}
+.login input {
+  margin-bottom: 10px;
+}
+/* profile */
+.profile {
+  margin-top: 75px;
+}
+.profile .user-banner {
+  background: url('../img/bg.png') no-repeat bottom right;
+  background-size: 100%;
+}
+.profile .user-banner .thumbnail {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.profile .user-banner .user-info {
+  color: white;
+  text-shadow: 1px 1px 0px black;
+}
+.profile .user-menu {
+  border-top: 1px solid #ccc;
+  background: rgba(0, 0, 0, 0.5);
+}
+.profile .nav li a {
+  border-radius: 0;
+}
+.profile .nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.profile .user-info {
+  margin: 0 auto;
+}
+.profile .user-feed .status textarea {
+  margin-bottom: 10px;
+}
+.profile .user-feed .block .user-info {
+  padding-left: 0;
+}
+.profile .user-feed .block .user-info h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.profile .user-feed .block .user-info span {
+  color: #999;
+}
+.profile .user-feed .block .user-status {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile .comment-box .col-xs-2 {
+  padding: 0;
+}
+.profile .comment-box .col-xs-10 {
+  padding-left: 0;
+  margin-left: -10px;
+}
+.profile .photo-feed-quick a img {
+  padding-bottom: 3px;
+}
+.profile .friend-feed-quick a img {
+  padding-bottom: 3px;
+}
+/* edit profile */
+.edit-profile {
+  margin-top: 75px;
+}
+.edit-profile .edit-block .panel-heading {
+  background: #f5f5f5;
+  border-color: #ddd;
+}
+.edit-profile .edit-block h3 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.edit-profile .basic-info .col-xs-3,
+.edit-profile .account-info .col-xs-3 {
+  padding-right: 0;
+}
+/* newsfeed */
+.newsfeed {
+  margin-top: 75px;
+}
+.newsfeed .user-img {
+  padding-left: 0;
+}
+.newsfeed .user-info h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.newsfeed .user-status {
+  padding: 10px 0 0;
+}
+.photo-feed .fancybox img {
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
