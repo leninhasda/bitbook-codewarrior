@@ -5,15 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 
-	<title><?php echo $site_title; ?></title>
+	<title><?php echo $site_title; ?> <?= base_url(); ?></title>
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,400italic,300italic' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/css/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/css/jquery.fancybox.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/css/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <!-- navbar -->
